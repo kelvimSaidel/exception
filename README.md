@@ -1,13 +1,14 @@
-# Price List
+# Bank Account
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/kelvimSaidel/composition_and_enumeration_java/blob/master/LICENSE)
 
 
 # About project
 
-Make a program to read data from N products (N entered by user). At end, show the price tag of each product in the same order in which they were typed.
-Every product has a name and price. Products imported have a customs fee, and Used products have a date of manufacture.These specific data must be
-added to the price tag as per example (next page). For products imported, the tax and customs must be added to the final price of the product.
+Make a program to read data from a bank account and then perform a
+withdrawal from this bank account, showing the new balance. A withdrawal cannot take place
+or if there is no balance in the account, or if the withdrawal amount exceeds the limit of
+withdrawal from the account. Implement the bank account according to the project below:
 
 ## Layout
 
@@ -28,10 +29,10 @@ Precondition: java 11
 
 ```bash
 #clone repository
-git clone https://github.com/kelvimSaidel/polymorphism_inheritance.git
+git clone https://github.com/kelvimSaidel/exception.git
 
 #enter in the  folder
-cd polymorphism_inheritance
+cd exception
 
 #enter in the  folder
 cd src
